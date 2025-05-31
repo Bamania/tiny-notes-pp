@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "start:mac": "echo 'Starting backend & frontend...' && sh ./start-dev.sh",
+   "start": "start-dev.bat",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
